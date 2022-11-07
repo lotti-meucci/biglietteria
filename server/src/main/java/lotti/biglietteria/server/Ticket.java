@@ -23,4 +23,10 @@ public final class Ticket
 	{
 		return location;
 	}
+
+	@Override
+	public String toString()
+	{
+		return "ID: " + getID() + "\nLocation: " + getLocation();
+	}
 }
